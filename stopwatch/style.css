@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(36, 34, 34);
+}
+
+.stopwatch {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    border: 5px solid rgba(240, 46, 170, 0.4);
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0.7;
+box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+transition: 2s;
+}
+
+    
+
+.stopwatch:hover{
+    width: 320px;
+
+    opacity: 1;
+    }
+
+#startStop{
+padding: 15px 30px;
+color: white;
+ size: 20px;
+ background-color:rgba(0, 0, 0, 0.3);
+ border-radius: 15px;
+ opacity: .7;
+ 
+}
+#startStop:hover{
+    opacity: 1;
+}
+
+#reset{
+    padding: 15px 30px;
+    color: white;
+     size: 20px;
+     background-color:rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+     opacity: .6;
+}
+#reset{
+    opacity:1;
+}
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: rgba(150, 100, 70, 0.7);
+}
+
+.control {
+    font-size: 1em;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
